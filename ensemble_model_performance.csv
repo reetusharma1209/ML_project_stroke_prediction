@@ -1,0 +1,22 @@
+Model,Scaler,Best Params,Accuracy,Precision,Recall,F1 Score
+Bagging with Random Forest,None,"{'n_estimators': 10, 'base_estimator__n_estimators': 100, 'base_estimator__max_depth': None}",0.9287169042769857,0.9084741559038058,0.9287169042769857,0.9176252697169
+Bagging with Random Forest,StandardScaler,"{'n_estimators': 10, 'base_estimator__n_estimators': 100, 'base_estimator__max_depth': None}",0.9287169042769857,0.9084741559038058,0.9287169042769857,0.9176252697169
+Bagging with Random Forest,MinMaxScaler,"{'n_estimators': 10, 'base_estimator__n_estimators': 100, 'base_estimator__max_depth': None}",0.9287169042769857,0.9084741559038058,0.9287169042769857,0.9176252697169
+Bagging with KNN,None,"{'n_estimators': 20, 'base_estimator__n_neighbors': 3}",0.884928716904277,0.9032073695127609,0.884928716904277,0.8937847552412769
+Bagging with KNN,StandardScaler,"{'n_estimators': 20, 'base_estimator__n_neighbors': 3}",0.8828920570264766,0.9074112617908257,0.8828920570264766,0.8945419057730439
+Bagging with KNN,MinMaxScaler,"{'n_estimators': 20, 'base_estimator__n_neighbors': 3}",0.8839103869653768,0.9075426852024177,0.8839103869653768,0.8951510352481191
+Bagging with Logistic Regression,None,"{'n_estimators': 10, 'base_estimator__C': 1}",0.7352342158859471,0.9446360654639693,0.7352342158859471,0.8075494532075901
+Bagging with Logistic Regression,StandardScaler,"{'n_estimators': 10, 'base_estimator__C': 1}",0.7342158859470469,0.9445941711311924,0.7342158859470469,0.80682754712139
+Bagging with Logistic Regression,MinMaxScaler,"{'n_estimators': 10, 'base_estimator__C': 10}",0.7342158859470469,0.9445941711311924,0.7342158859470469,0.80682754712139
+Bagging with Decision Tree,None,"{'n_estimators': 10, 'base_estimator__max_depth': None}",0.9276985743380856,0.8975904111851158,0.9276985743380856,0.911987340406771
+Bagging with Decision Tree,StandardScaler,"{'n_estimators': 10, 'base_estimator__max_depth': None}",0.9276985743380856,0.8975904111851158,0.9276985743380856,0.911987340406771
+Bagging with Decision Tree,MinMaxScaler,"{'n_estimators': 10, 'base_estimator__max_depth': None}",0.9287169042769857,0.8977855428427105,0.9287169042769857,0.9125266662743572
+AdaBoost with Decision Tree,None,"{'n_estimators': 100, 'learning_rate': 1}",0.7627291242362525,0.9372980645004498,0.7627291242362525,0.8263133643780411
+AdaBoost with Decision Tree,StandardScaler,"{'n_estimators': 100, 'learning_rate': 1}",0.7627291242362525,0.9372980645004498,0.7627291242362525,0.8263133643780411
+AdaBoost with Decision Tree,MinMaxScaler,"{'n_estimators': 100, 'learning_rate': 1}",0.7627291242362525,0.9372980645004498,0.7627291242362525,0.8263133643780411
+AdaBoost with Logistic Regression,None,"{'n_estimators': 50, 'learning_rate': 1}",0.7331975560081466,0.9460407240703673,0.7331975560081466,0.8061379496940798
+AdaBoost with Logistic Regression,StandardScaler,"{'n_estimators': 100, 'learning_rate': 0.1}",0.7525458248472505,0.9453720876485967,0.7525458248472505,0.8197302580278608
+AdaBoost with Logistic Regression,MinMaxScaler,"{'n_estimators': 100, 'learning_rate': 1}",0.7515274949083504,0.9438753027872228,0.7515274949083504,0.8189576440436883
+Gradient Boosting with Decision Tree,None,"{'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.01}",0.9164969450101833,0.9007059335346541,0.9164969450101833,0.9083574608508493
+Gradient Boosting with Decision Tree,StandardScaler,"{'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.01}",0.9164969450101833,0.9007059335346541,0.9164969450101833,0.9083574608508493
+Gradient Boosting with Decision Tree,MinMaxScaler,"{'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.01}",0.9185336048879837,0.9010915708736762,0.9185336048879837,0.9094945616182549
