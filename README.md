@@ -32,14 +32,14 @@ The goal of this project is to apply machine learning techniques to a healthcare
 **Model Building**: Training and tuning various machine learning models, including:
     
 - Random Forest
+- Decision Trees
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
 - Bagging Classifier
 - AdaBoost
 - Gradient Boosting
-- Voting Classifier
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Support Vector Machine (SVM)
-- Decision Trees
+
+
 
 
 ## 🎖️ Results
